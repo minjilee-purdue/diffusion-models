@@ -67,13 +67,13 @@ which is another way to calculate variance. Here, Σ(x²)/n is the "mean of squa
 
 #### Why These Methods Are Equivalent?
 
-First method (mean of squared deviations):**
+First method (mean of squared deviations):
 
 $$
 \\sigma^2 = \\frac{\\sum(x - \\mu)^2}{n}
 $$
 
-Second method (mean of squares minus square of the mean):**
+Second method (mean of squares minus square of the mean):
 
 $$
 \\sigma^2 = \\frac{\\sum x^2}{n} - \\left(\\frac{\\sum x}{n}\\right)^2
