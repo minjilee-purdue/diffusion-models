@@ -165,4 +165,3 @@ $$
 
 This final expression matches exactly with Method 2. Therefore, both methods for calculating variance are mathematically equivalent.
 
-
