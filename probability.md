@@ -6,7 +6,7 @@ The standard deviation measures how spread out the values are from the mean. Her
 
 ##### Step 1: List the values and calculate the mean
 Given values: x = 59, 64, 69, 72, 76, 80
-Mean = 70 (given)
+Mean = 70 (given). This means that the values and mean are treated as constants throughout the calculation process.
 
 ##### Step 2: Calculate the deviation of each value from the mean
 - 59 - 70 = -11
