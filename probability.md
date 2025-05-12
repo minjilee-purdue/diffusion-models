@@ -108,3 +108,61 @@ $$
 $$
 = \\frac{\\sum x^2}{n} - \\left(\\frac{\\sum x}{n}\\right)^2
 $$
+
+
+
+#### Simplified Proof (Substituting μ with a Constant A)
+
+We can substitute the mean $\mu = \frac{\sum x}{n}$ with a constant $A$ (e.g., $A = 70$ in a given dataset).
+
+1. Start from Method 1:
+
+$$
+\sigma^2 = \frac{\sum (x - A)^2}{n}
+$$
+
+2. Expand the squared term:
+
+$$
+\sigma^2 = \frac{\sum (x^2 - 2xA + A^2)}{n}
+$$
+
+3. Apply the distributive property of summation:
+
+$$
+\sigma^2 = \frac{\sum x^2 - \sum 2xA + \sum A^2}{n}
+$$
+
+4. Factor out the constant $A$ from the summation:
+
+$$
+\sigma^2 = \frac{\sum x^2 - 2A\sum x + nA^2}{n}
+$$
+
+5. Divide each term by $n$:
+
+$$
+\sigma^2 = \frac{\sum x^2}{n} - 2A \cdot \frac{\sum x}{n} + A^2
+$$
+
+6. Substitute $A = \frac{\sum x}{n}$:
+
+$$
+\sigma^2 = \frac{\sum x^2}{n} - 2A \cdot A + A^2
+$$
+
+7. Simplify:
+
+$$
+\sigma^2 = \frac{\sum x^2}{n} - 2A^2 + A^2 = \frac{\sum x^2}{n} - A^2
+$$
+
+8. Re-substitute $A = \frac{\sum x}{n}$:
+
+$$
+\sigma^2 = \frac{\sum x^2}{n} - \left( \frac{\sum x}{n} \right)^2
+$$
+
+This final expression matches exactly with Method 2. Therefore, both methods for calculating variance are mathematically equivalent.
+
+
