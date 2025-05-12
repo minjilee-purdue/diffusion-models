@@ -35,4 +35,4 @@ plt.tight_layout()
 plt.show()
 ```
 
-![](/normal_dist_output.png)
+![](normal_dist_output.png)
